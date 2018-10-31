@@ -572,7 +572,6 @@ class googleimagesdownload:
 
                 # keep everything after the last '/'
                 image_name = str(image_url[(image_url.rfind('/')) + 1:])
-                image_name = image_name.lower()
 
                 if image_format == "":
                     image_name = image_name
